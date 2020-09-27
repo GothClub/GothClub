@@ -74,6 +74,9 @@ img{
 
 #sectThree{
     background-image: url('./photos/wallpaper2.jpg');
+          background-repeat: no-repeat;
+  background-size: auto;
+    
 }
 
 #sectFive{
