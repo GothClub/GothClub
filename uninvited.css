@@ -118,18 +118,112 @@ img{
 
 
 
+/*missing stuff here ?!
+.section{
+  padding-top: 60px;
+  min-height: 90vh;
+  text-align: center;
+}
+
+.navbar-brand{
+  font-size: 25px;
+}
 
 
+.navbar{
+font-size: 18px;
+background-color: rgba(232, 218, 208, 0.8);
+font-family: oswald;
+}
+
+#bottomBar{
+  position: fixed;
+  background-color: rgba(232, 218, 208, 0.8);
+  bottom:0;
+  width: 100vw;
+  height: 40px;
+  border-top: solid 1px white;
+  padding: 5px 20px;
+  color: #5E5E5E;
+}
+
+#bottomBar div{
+ display: inline-block;
+  overflow: hidden;
+  margin-left: 5px;
+  height: 30px;
+}
+
+#bottomBar button{
+  float: right;
+  background-color: transparent;
+  border: none;
+}
+
+#bottomBar button:hover{
+  color: #333;
+  }
+
+#songStatus{
+  width:130px;
+  white-space: nowrap; /* This stops the text from breaking to new line*/
+}
+
+span{
+  font-weight: bold;
+}
 
 
+.fa{
+  color: #5E5E5E;
+}
 
+h1{
+    font-family: oswald;
+}
 
+#bottomBar div .fa{
+   margin: 0 8px;
+}
 
+.fa:hover {
+ color: #333;
+}
 
+a, .fa{
+   cursor:pointer;
+}
 
+.btn-default{
+  border: none;
+  display: inline-block;
+  float: right;
+  background-color: transparent;
+}
 
+button:focus {outline:0;}
 
+.btn-default:hover{
+  background-color: transparent;
+}
 
+#songStatus p{
+   position: relative;
+   left: 150px;
+    -webkit-animation: mymove  10s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 15s infinite;
+    animation-timing-function: linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    100%{left: -200px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    100%{left: -200px;}
+}
 
 
  /* Style the video: 100% width and height to cover the entire window */
