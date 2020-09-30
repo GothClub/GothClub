@@ -8,7 +8,7 @@
 img{
   margin: 20px auto;
  
- 
+ border: none;
   object-fit: cover;
   max-height: 600px;
   width: 100%;
