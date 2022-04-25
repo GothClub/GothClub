@@ -1,6 +1,5 @@
 :root {
-  --text-color: #97f1b7; 
-}
+  --text-color: #97f1b7; }
 
 * {
   box-sizing: border-box;
@@ -8,7 +7,7 @@
 
 body {
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
   color: var(--text-color);
   font-family: "Arvo";
   background-image: url("./public/tile.png");
@@ -19,7 +18,7 @@ body {
 header {
   margin: 0;
   background-size: cover;
-  background-color: black;
+  background-image: linear-gradient(to right, #0000, #000f 10% 80%, #0000); 
 }
 
 h1 {
@@ -62,7 +61,7 @@ iframe {
 }
 
 .contact {
-  background-color: black;
+  background-image: linear-gradient(to right, #0000, #000f 10% 80%, #0000); 
   margin: auto;
   text-align: center;
   width: 100%;
@@ -113,7 +112,25 @@ iframe {
 .wrapper p {
   max-width: 80%;
   margin: auto;
-  background-color: black;
+  background-image: linear-gradient(to right, #0000, #000f 10% 80%, #0000); 
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  max-width: 300px;
+  margin: auto;
+}
+
+
+.social a {
+  display: flex;
+}
+
+.social-icon {
+  max-width: 100%;
+  object-fit: contain;
 }
 
 span {
@@ -128,6 +145,11 @@ span {
 }
 
 @media screen and (min-width: 640px) {
+
+  .social {
+    height: 5rem;
+    max-width: 400px;
+  }
   h1 {
     font-size: 5rem;
     letter-spacing: 1rem;
